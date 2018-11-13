@@ -1,0 +1,1 @@
+CREATE TABLE `curso_php`.`produtos` ( `ID` INT NULL , `nome` VARCHAR(45) NOT NULL , `codigo` VARCHAR(250) NOT NULL , `descricao` TEXT NOT NULL , `valor_compra` DECIMAL(10,2) NOT NULL , `valor_venda` DECIMAL(10,2) NOT NULL , `categoriascol` VARCHAR(45) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
